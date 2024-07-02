@@ -1,5 +1,5 @@
 import PageLayout from '@/components/organisms/PageLayout/PageLayout';
-import contactUs from '/ContactUs_Image.jpg';
+import contactUs from '/ContactUs_main.jpg';
 import LocationContent from '../components/LocationContent';
 
 function Location() {

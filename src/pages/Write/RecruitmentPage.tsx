@@ -1,7 +1,7 @@
 import Editor from '@/components/moleclues/Editor/Editor';
 import { StyledContent } from '@/styles/components/PageSubTitle/PageSubTitle';
 import WritePageLayout from '@/components/organisms/PageLayout/WritePageLayout';
-import mainImage from '/Notice_main.svg';
+import mainImage from '/Notice_main.jpg';
 
 function RecruitementWritePage() {
   return (

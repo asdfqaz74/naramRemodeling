@@ -10,7 +10,6 @@ const meta = {
   },
   tags: ['autodocs'],
   argTypes: {
-    isLogin: { control: 'boolean' },
     isMain: { control: 'boolean' },
   },
   args: {},
@@ -29,13 +28,13 @@ type Story = StoryObj<typeof meta>;
 export const IsLogout: Story = {
   args: {
     isMain: false,
-    isLogin: false,
+  
   },
 };
 
 export const IsLogin: Story = {
   args: {
     isMain: false,
-    isLogin: true,
+   
   },
 };

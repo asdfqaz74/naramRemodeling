@@ -1,5 +1,5 @@
 import PageLayout from '@/components/organisms/PageLayout/PageLayout';
-import mainImage from '/Notice_main.svg';
+import mainImage from '/Notice_main.jpg';
 import PromotionLayout from '@/components/organisms/PromotionLayout/PromotionLayout';
 
 function Promotion() {

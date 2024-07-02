@@ -49,7 +49,6 @@ function BoardTable({ to }: BoardTableProps): React.ReactNode {
       <StyledBoardTable isQnAPage key={item.id} className="BoardTableList">
         <td style={{ width: '5%' }} className="postNum">
           {item.id}
-          {console.log(item)}
         </td>
         <td style={{ width: '55%', textAlign: 'left' }} className="title">
           <Link to={`/BoardDetail/${item.id}`}>{item.title}</Link>
