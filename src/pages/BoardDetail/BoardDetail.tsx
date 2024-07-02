@@ -6,7 +6,7 @@ import ScrollToTop from '@/hook/ScrollToTop';
 function BoardDetail() {
   return (
     <div>
-      <ScrollToTop/>
+      <ScrollToTop />
       <PageLayout
         alt="문의사항 페이지"
         mainImage={mainImage}
