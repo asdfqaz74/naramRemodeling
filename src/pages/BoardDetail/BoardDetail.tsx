@@ -1,7 +1,7 @@
 import BoardDetailLayout from '@/components/organisms/BoardDetailLayout/BoardDetailLayout';
 import PageLayout from '@/components/organisms/PageLayout/PageLayout';
 import mainImage from '/Notice_main.jpg';
-import ScrollToTop from '@/hook/ScrollToTop';
+import ScrollToTop from '@/hook/ScrollToTop.ts';
 
 function BoardDetail() {
   return (
